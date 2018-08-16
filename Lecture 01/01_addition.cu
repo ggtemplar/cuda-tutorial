@@ -43,7 +43,7 @@ int main ( void )
 	 * +----------------+-----------------------------------------+
 	 * | Parameters     | Description                             |
 	 * +----------------+-----------------------------------------+
-	 * | void*** devPtr | The address of the pointer to the       |
+	 * | void** devPtr | The address of the pointer to the       |
 	 * |                | allocated memory on the GPU is returned |
 	 * |                | to this pointer.                        |
 	 * | size_t size    | The number of bytes to be allocated on  |
